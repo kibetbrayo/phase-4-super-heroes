@@ -97,7 +97,7 @@ def update_power(id):
         "description": power.description
     })
 
-# POST /hero_powers - Create a new HeroPower association
+# POST /hero_powers 
 @app.route('/hero_powers', methods=['POST'])
 def create_hero_power():
     data = request.get_json()

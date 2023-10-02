@@ -23,11 +23,10 @@ Before running the API, make sure you have the following installed:
       pip install -r requirements.txt
 
 3. setup the database migration
-    flask db upgrade
+    - flask db upgrade
 
 4. run api
-    '''bash
-     flask run
+    - flask run
 
 ## usage
 
